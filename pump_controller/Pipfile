@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transitions = "*"
+pymodbus = "==3.6.3"
+
+[dev-packages]
+grpcio = "*"
+protobuf = "*"
+requests = "*"
+pydoover = {file = "../../pydoover"}
+
+[requires]
+python_version = "3.11"

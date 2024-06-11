@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  pump_station_controller:
+    build: .
+    restart: always
+    network_mode: host
